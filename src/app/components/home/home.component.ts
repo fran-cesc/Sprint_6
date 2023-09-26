@@ -12,4 +12,9 @@ export class HomeComponent {
     "L'heroi va decidir travessar la porta que el portava a casa",
     "Mentrestant, altres herois no van tenir tanta sort en la seva elecció ..."
   ]
+
+  public start: boolean = false;
+  public inici(): void{
+    this.start = true;
+  }
 }
