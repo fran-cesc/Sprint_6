@@ -1,0 +1,13 @@
+<div class="btnContainer">
+  <button type="text" class="btn" (click)="prev()">Anterior</button>
+  <button type="text" class="btn" (click)="next()">Següent</button>
+</div>
+
+<div
+  class="listItem"
+  *ngFor="let text of textToEscena;
+          let i= index"
+  [ngClass]="( i === currentSentence) ? 'active' : ''">
+    {{text}}
+</div>
+
