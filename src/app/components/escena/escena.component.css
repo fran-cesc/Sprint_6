@@ -1,9 +1,26 @@
+.container{
+  /* background-image: url("../../../assets/img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; */
+}
+
+.bg-img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .listItem{
   border: 2px solid black;
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
   text-align: center;
+  color: white;
+  font-size: 1.1em;
 }
 
 .btnContainer{
@@ -13,6 +30,8 @@
 .btn{
   width: 50%;
   padding: 10px;
+  margin: 5px;
+  font-size: 1.3em;
 
 }
 

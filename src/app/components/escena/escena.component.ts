@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { HomeComponent } from '../home/home.component';
+import { textImageSentence } from 'src/app/interfaces/sprint.interfaces';
 @Component({
   selector: 'app-escena',
   templateUrl: './escena.component.html',
@@ -7,7 +8,7 @@ import { HomeComponent } from '../home/home.component';
 })
 export class EscenaComponent {
 
-  @Input() textToEscena: string[] = [];
+  @Input() textToEscena: textImageSentence[] = [];
   public currentSentence: number = 0;
 
   public prev(): void{
